@@ -6,14 +6,12 @@ body {
 
 #tile-slider-title {
     margin: 40px 0;
-    font-size: 20vh;
+    font-size: 10vw;
     /* animated gradient */
 }
 
 .textbox {
-    width: 40%;
-    margin: auto;
-
+    width: 40vw;
     margin-left: 5vw;
 }
 
@@ -36,7 +34,14 @@ body {
 
 #showcase {
     position: absolute;
-    width: 50vw;
-    top: 3rem;
+    width: 40vw;
+    top: 3.25rem;
     right: 5vw;
+}
+
+
+@media (max-width: 800px) {
+    #showcase {
+        top: 12rem;
+    }
 }

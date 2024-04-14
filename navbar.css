@@ -13,7 +13,7 @@ body {
     align-items: center;
     background-color: #333;
     color: white;
-    height: 3rem;
+    height: 3.25rem;
 }
 
 .brand-title {
@@ -44,6 +44,7 @@ body {
     .navbar {
         flex-direction: column;
         align-items: flex-start;
+        height: 12rem;
     }
 
     .toggle-button {
@@ -51,7 +52,6 @@ body {
     }
 
     .navbar-links {
-        display: none;
         width: 100%;
     }
 
@@ -65,7 +65,7 @@ body {
     }
 
     .navbar-links ul li a {
-        padding: .5rem 1rem;
+        padding: .5rem 0;
     }
 
     .navbar-links.active {
