@@ -1,0 +1,42 @@
+body {
+    color: white;
+    background-color: #151618;
+    font-family: 'Lexend', 'Segoe UI', Arial, sans-serif;
+}
+
+#tile-slider-title {
+    margin: 40px 0;
+    font-size: 20vh;
+    /* animated gradient */
+}
+
+.textbox {
+    width: 40%;
+    margin: auto;
+
+    margin-left: 5vw;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+.links * img {
+    height: 50px;
+    padding-left: 30px;
+}
+
+.caption {
+    margin-top: -12px;
+    margin-left: 3vw;
+    color: rgb(168, 168, 168);
+}
+
+#showcase {
+    position: absolute;
+    width: 50vw;
+    top: 3rem;
+    right: 5vw;
+}
