@@ -4,10 +4,25 @@ body {
     font-family: 'Lexend', 'Segoe UI', Arial, sans-serif;
 }
 
-#tile-slider-title {
+#artslide-title {
     margin: 40px 0;
     font-size: 10vw;
-    /* animated gradient */
+    background: linear-gradient(-45deg, #780987, #E018FB, #816AEF, #4D97E8, #1BC3E1, #A2E8F5);
+    background-size: 200% 200%;
+	animation: title-gradient 15s ease infinite;
+    background-clip: text;
+    color: transparent;
+}
+@keyframes title-gradient {
+	0% {
+		background-position: 0% 0%;
+	}
+	50% {
+		background-position: 100% 100%;
+	}
+	100% {
+		background-position: 0% 0%;
+	}
 }
 
 .textbox {

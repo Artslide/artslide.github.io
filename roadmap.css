@@ -1,0 +1,21 @@
+body {
+    color: white;
+    background-color: #151618;
+    font-family: 'Lexend', 'Segoe UI', Arial, sans-serif;
+}
+
+#title {
+    font-size: 7vh;
+}
+
+.content {
+    text-align: center;
+    width: 70vw;
+    margin: auto;
+}
+
+.caption {
+    margin-top: 0px;
+    margin-left: 3vw;
+    color: rgb(168, 168, 168);
+}
