@@ -3,22 +3,29 @@
 }
 body {
     margin: 0;
-    padding: 0;
+    padding-top: 2.35rem;
 }
 
 .navbar {
     display: flex;
-    position: relative;
+    position: fixed;
     justify-content: space-between;
+    top: 0;
     align-items: center;
     background-color: #333;
     color: white;
+    width: 100vw;
     height: 3.25rem;
 }
 
 .brand-title {
+    display: flex;
+    align-items: center;
     font-size: 1.5rem;
     margin: .5rem;
+}
+.logo {
+    height: 3rem;
 }
 
 .navbar-links ul {
@@ -41,10 +48,14 @@ body {
 }
 
 @media (max-width: 800px) {
+    body {
+        padding-top: 0;
+    }
     .navbar {
+        position: relative;
         flex-direction: column;
         align-items: flex-start;
-        height: 12rem;
+        height: 13rem;
     }
 
     .toggle-button {
@@ -66,9 +77,5 @@ body {
 
     .navbar-links ul li a {
         padding: .5rem 0;
-    }
-
-    .navbar-links.active {
-        display: flex;
     }
 }

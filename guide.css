@@ -1,0 +1,55 @@
+body {
+    color: white;
+    background-color: #151618;
+    font-family: 'Lexend', 'Segoe UI', Arial, sans-serif;
+}
+
+.subtitle {
+}
+
+.content {
+    text-align: center;
+    width: 70vw;
+    margin-left: 25vw;
+/*     margin-top: 0;
+ */}
+
+.side-navbar {
+    position: fixed;
+    padding-top: 20px;
+    top: 3.25rem;
+    width: 20vw;
+    height: 100vh;
+    background-color: #666666;
+    color: #bbbbbb;
+}
+.side-navbar h3 {
+    margin-left: 20px;
+}
+.side-navbar-links ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.side-navbar-links li a {
+    display: block;
+    text-decoration: none;
+    color: #bbbbbb;
+    padding: 0.5rem 0.5rem 1rem 20px;
+    font-size: 1rem;
+}
+.side-navbar-links li:hover a {
+    color: white;
+}
+
+@media (max-width: 800px) {
+    .side-navbar {
+        top: 0;  /* will be fine since navbar will be position relative */
+        position: sticky;
+        /* also make it popout only */
+    }
+    .content {
+        position: absolute;
+        top: 13rem;
+    }
+}

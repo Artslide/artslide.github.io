@@ -5,13 +5,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="Slide Tiles">
-    <title>Roadmap</title>
+    <title>Feedback</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="navbar.css">
-    <link rel="stylesheet" href="roadmap.css">
-    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="feedback.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="feedback.js" defer></script>
 </head>
 
 <body>
@@ -31,17 +32,14 @@
     </nav>
 
     <div class="content">
-        <h1 id="title">Our Plans</h1>
+        <h1 id="title">Give us Feedback</h1>
 
-        <div>
-            <h1>Release</h1>
-            <p>We're currently aiming to get this app on the app store(s) sometime in July 2024</p>
-        </div>
+        <p>This is the place for any complaints, suggestions, or ideas you want to share with us to help make our app better</p>
 
-        <img id="showcase" src="https://qph.cf2.quoracdn.net/main-qimg-a58f28b0731d03c0a2f0f73dfae1c9ac.webp"
-            alt="roadmap">
-        <p class="caption">cos everybody loves images right? dunnit look so much more engaging? are you engaging with
-            this webpage?</p>
+        <textarea class="feedback-area" placeholder="Your message here"></textarea>
+        <p id="chars-left">0/1024 characters</p>
+
+        <button id="submit">Submit</button>
     </div>
 </body>
 
