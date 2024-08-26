@@ -1,6 +1,6 @@
 body {
     color: white;
-    background-color: #151618;
+    background-color: #1D2027;
     font-family: 'Lexend', 'Segoe UI', Arial, sans-serif;
 }
 
@@ -26,8 +26,15 @@ body {
 }
 
 .textbox {
-    width: 40vw;
+    width: 45vw;
     margin-left: 5vw;
+}
+.textbox h2 {
+    font-size: 2vw;
+}
+.textbox p {
+    font-size: 1.5vw;
+    font-weight: 300;
 }
 
 .links {

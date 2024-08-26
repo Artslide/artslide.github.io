@@ -1,6 +1,6 @@
 body {
     color: white;
-    background-color: #151618;
+    background-color: #1D2027;
     font-family: 'Lexend', 'Segoe UI', Arial, sans-serif;
 }
 
@@ -61,7 +61,7 @@ body {
     border-style: none;
     outline: none;
     border: 0.25em solid transparent;
-    background-image: linear-gradient(#151618, #151618),
+    background-image: linear-gradient(#1D2027, #1D2027),
     linear-gradient(-45deg, #780987, #E018FB, #816AEF, #4D97E8, #1BC3E1, #A2E8F5);
     background-origin: border-box;
     background-clip: padding-box, border-box;

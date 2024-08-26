@@ -12,17 +12,21 @@ body {
     justify-content: space-between;
     top: 0;
     align-items: center;
-    background-color: #333;
+    background-color: #151618;
     color: white;
     width: 100vw;
     height: 3.25rem;
 }
 
+a {
+    text-decoration: none;
+}
 .brand-title {
     display: flex;
     align-items: center;
     font-size: 1.5rem;
     margin: .5rem;
+    color: white;
 }
 .logo {
     height: 3rem;
