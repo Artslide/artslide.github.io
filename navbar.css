@@ -1,9 +1,17 @@
 * {
     box-sizing: border-box;
 }
+html{
+    min-height: 100vh;
+    min-width: 100vw;
+    position: absolute;
+}
 body {
     margin: 0;
     padding-top: 2.35rem;
+    color: white;
+    background-color: #1D2027;
+    font-family: 'Lexend', 'Segoe UI', Arial, sans-serif;
 }
 
 .navbar {
@@ -82,4 +90,21 @@ a {
     .navbar-links ul li a {
         padding: .5rem 0;
     }
+}
+
+/* Footer */
+#footer {
+    background-color: #151618;
+    color: white;
+    font-style: normal;
+    height: 10vh;
+    width: 100vw;
+    text-align: right;
+    padding: 1rem;
+    position: absolute;
+    bottom: 0;
+}
+#footer a {
+    color: white;
+    font-size: 80%;
 }
