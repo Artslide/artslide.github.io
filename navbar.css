@@ -20,7 +20,7 @@ body {
     justify-content: space-between;
     top: 0;
     align-items: center;
-    background-color: #151618;
+    /*background-color: #151618;*/
     color: white;
     width: 100vw;
     height: 3.25rem;
@@ -37,7 +37,7 @@ a {
     color: white;
 }
 .logo {
-    height: 3rem;
+    height: 2rem;
 }
 
 .navbar-links ul {
@@ -56,7 +56,8 @@ a {
 }
 
 .navbar-links li:hover {
-    background-color: #00A3FF;
+    opacity: 0.5;
+    transition: opacity 0.3s ease;
 }
 
 @media (max-width: 800px) {
@@ -94,13 +95,13 @@ a {
 
 /* Footer */
 #footer {
-    background-color: #151618;
+    /*background-color: #151618;*/
     color: white;
     font-style: normal;
-    height: 10vh;
+    height: 5vh;
     width: 100vw;
     text-align: right;
-    padding: 1rem;
+    padding: 0.5rem;
     position: absolute;
     bottom: 0;
 }
